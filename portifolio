@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Jean Heberth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .project {
+            margin: 20px 0;
+        }
+        .project a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio de Jean Heberth</h1>
+    </header>
+    
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Desenvolvedor Full Stack com experiência em Java, Spring Boot, Angular, automação de testes com Selenium e Cypress, e muito mais.</p>
+
+        <h2>Projetos</h2>
+
+        <div class="project">
+            <h3>Sistema de Cadastro de Funcionários</h3>
+            <p>Sistema completo de gerenciamento de funcionários com frontend em Angular e backend em Spring Boot.</p>
+            <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Veja no GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Automação de Testes para Aplicação Web</h3>
+            <p>Suíte de testes automatizados com Cypress para validação de uma aplicação web.</p>
+            <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Veja no GitHub</a>
+        </div>
+        
+        <div class="project">
+            <h3>Integração de Testes com BrowserStack</h3>
+            <p>Configuração de um ambiente de testes mobile usando BrowserStack.</p>
+            <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Veja no GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Jean Heberth</p>
+    </footer>
+</body>
+</html>
 
