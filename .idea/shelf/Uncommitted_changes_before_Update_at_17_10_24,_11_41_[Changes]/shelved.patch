@@ -1,0 +1,20 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"pt-br\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Portfólio de Jean Heberth</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n        header {\n            background-color: #333;\n            color: white;\n            padding: 10px;\n            text-align: center;\n        }\n        section {\n            padding: 20px;\n        }\n        h2 {\n            color: #333;\n        }\n        .project {\n            margin: 20px 0;\n        }\n        .project a {\n            color: #0066cc;\n            text-decoration: none;\n        }\n        .project a:hover {\n            text-decoration: underline;\n        }\n        footer {\n            text-align: center;\n            padding: 10px;\n            background-color: #333;\n            color: white;\n            position: absolute;\n            width: 100%;\n            bottom: 0;\n        }\n    </style>\n</head>\n<body>\n    <header>\n        <h1>Portfólio de Jean Heberth</h1>\n    </header>\n    \n    <section>\n        <h2>Sobre Mim</h2>\n        <p> Desenvolvedor Full Stack | Engenheiro de Qualidade de Software | Pós-graduando em Testes de Software e Desenvolvimento Full Stack</p><p>Desenvolvedor Full Stack com experiência em Java, Spring Boot, Angular, automação de testes com Selenium e Cypress, e muito mais.</p>\n\n        <h2>Projetos</h2>\n\n        <div class=\"project\">\n            <h3>Sistema de Cadastro de Funcionários</h3>\n            <p>Sistema completo de gerenciamento de funcionários com frontend em Angular e backend em Spring Boot.</p>\n            <a href=\"https://github.com/seu-usuario/seu-repositorio\" target=\"_blank\">Veja no GitHub</a>\n        </div>\n\n        <div class=\"project\">\n            <h3>Automação de Testes para Aplicação Web</h3>\n            <p>Suíte de testes automatizados com Cypress para validação de uma aplicação web.</p>\n            <a href=\"https://github.com/seu-usuario/seu-repositorio\" target=\"_blank\">Veja no GitHub</a>\n        </div>\n        \n        <div class=\"project\">\n            <h3>Integração de Testes com BrowserStack</h3>\n            <p>Configuração de um ambiente de testes mobile usando BrowserStack.</p>\n            <a href=\"https://github.com/seu-usuario/seu-repositorio\" target=\"_blank\">Veja no GitHub</a>\n        </div>\n    </section>\n\n    <footer>\n        <p>© 2024 Jean Heberth</p>\n    </footer>\n</body>\n</html>\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 42b2b96253df5c0981bd289fcedd0157cb73d7d4)
++++ b/index.html	(date 1729176060042)
+@@ -51,7 +51,8 @@
+     
+     <section>
+         <h2>Sobre Mim</h2>
+-        <p> Desenvolvedor Full Stack | Engenheiro de Qualidade de Software | Pós-graduando em Testes de Software e Desenvolvimento Full Stack</p><p>Desenvolvedor Full Stack com experiência em Java, Spring Boot, Angular, automação de testes com Selenium e Cypress, e muito mais.</p>
++        <p> Desenvolvedor Full Stack | Engenheiro de Qualidade de Software | Pós-graduando em Testes de Software e Desenvolvimento Full Stack</p>
++
+ 
+         <h2>Projetos</h2>
+ 
