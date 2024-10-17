@@ -1,84 +1,154 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Jean Heberth</title>
+    <title>Jean Heberth - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             background-color: #f4f4f4;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-        }
-        h2 {
+        h1, h2 {
             color: #333;
         }
+        h2 {
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
         .project {
-            margin: 20px 0;
-        }
-        .project a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .project a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
+            margin-bottom: 20px;
             padding: 10px;
-            background-color: #333;
-            color: white;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+            background: #f9f9f9;
+            border-left: 4px solid #007BFF;
+        }
+        .contact-info {
+            margin-top: 30px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Portfólio de Jean Heberth</h1>
-    </header>
-    
-    <section>
-        <h2>Sobre Mim</h2>
+<div class="container">
+    <h1>Jean Heberth - Portfolio</h1>
+    <p>Desenvolvedor Full Stack | Engenheiro de Qualidade de Software | Pós-graduando em Testes de Software e Desenvolvimento Full Stack</p>
 
-        <p> Desenvolvedor Full Stack | Engenheiro de Qualidade de Software | Pós-graduando em Testes de Software | Pós-graduando em Desenvolvimento Full Stack</p>
+    <h2>Sobre Mim</h2>
+    <p>
+        Sou um profissional dedicado com ampla experiência em desenvolvimento backend, frontend, e automação de testes.
+        Com um sólido histórico em Java, Spring Boot, Angular e automação de testes com Selenium e Cypress, estou sempre em busca de desafios que me permitam aplicar e expandir minhas habilidades.
+        Atualmente, estou cursando uma pós-graduação em Testes de Software e Desenvolvimento Full Stack, complementando minha formação técnica.
+    </p>
 
+    <h2>Experiência Profissional</h2>
+    <div class="experience">
+        <h3>1. Desenvolvedor Full Stack | Projeto Atual</h3>
+        <p>Tecnologias: Spring Boot, Angular, MongoDB, MySQL</p>
+        <p>Responsabilidades:</p>
+        <ul>
+            <li>Desenvolvimento de funcionalidades backend e frontend para sistemas de gestão de funcionários e endereços.</li>
+            <li>Implementação de WebSocket para atualização em tempo real dos dados entre máquinas diferentes.</li>
+            <li>Migração de API de MySQL para MongoDB.</li>
+        </ul>
+        <p>Principais Realizações:</p>
+        <ul>
+            <li>Integração entre tabelas Pessoa e Funcionário usando relacionamento OneToOne com MongoDB.</li>
+            <li>Automatização de geração de matrículas para novos funcionários.</li>
+        </ul>
 
-        <h2>Projetos</h2>
+        <h3>2. Engenheiro de Qualidade de Software | Automação de Testes</h3>
+        <p>Ferramentas: Cypress, Selenium, Playwright, Selenide, TestNG, Mockito, Zephyr Scale</p>
+        <p>Responsabilidades:</p>
+        <ul>
+            <li>Automação de testes para web e mobile usando frameworks como Cypress e Selenium.</li>
+            <li>Criação de cenários de teste para aplicações web e APIs, incluindo testes de regressão e validação de desempenho.</li>
+            <li>Implementação de relatórios Allure para monitorar os resultados dos testes automatizados.</li>
+        </ul>
+        <p>Principais Realizações:</p>
+        <ul>
+            <li>Desenvolvimento de uma suíte de testes automatizados com Cypress e Page Object Model para validação de uma aplicação web.</li>
+            <li>Configuração de testes automatizados em dispositivos móveis utilizando BrowserStack.</li>
+            <li>Integração de testes com Zephyr Scale para rastreamento de resultados.</li>
+        </ul>
 
-        <div class="project">
-            <h3>Sistema de Cadastro de Funcionários</h3>
-            <p>Sistema completo de gerenciamento de funcionários com frontend em Angular e backend em Spring Boot.</p>
-            <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Veja no GitHub</a>
-        </div>
+        <h3>3. Desenvolvimento de APIs e Integrações | Java e Spring Boot</h3>
+        <p>Tecnologias: Spring Boot, JPA, MongoDB, MySQL, RESTful APIs</p>
+        <p>Responsabilidades:</p>
+        <ul>
+            <li>Criação de APIs RESTful utilizando Spring Boot.</li>
+            <li>Implementação de regras de negócios complexas para manipulação de dados em bancos de dados relacionais e não relacionais.</li>
+            <li>Desenvolvimento de funcionalidades para cadastro de funcionários, incluindo a definição de supervisores com base em ID ou matrícula.</li>
+        </ul>
+        <p>Principais Realizações:</p>
+        <ul>
+            <li>API que retorna informações detalhadas de funcionários, como nome e supervisor, com dados carregados automaticamente no frontend.</li>
+            <li>Utilização do Faker para geração de dados em testes automatizados.</li>
+        </ul>
+    </div>
 
-        <div class="project">
-            <h3>Automação de Testes para Aplicação Web</h3>
-            <p>Suíte de testes automatizados com Cypress para validação de uma aplicação web.</p>
-            <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Veja no GitHub</a>
-        </div>
-        
-        <div class="project">
-            <h3>Integração de Testes com BrowserStack</h3>
-            <p>Configuração de um ambiente de testes mobile usando BrowserStack.</p>
-            <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank">Veja no GitHub</a>
-        </div>
-    </section>
+    <h2>Habilidades Técnicas</h2>
+    <p>Backend: Java, Spring Boot, JPA, RESTful APIs, MongoDB, MySQL</p>
+    <p>Frontend: Angular, Vue.js</p>
+    <p>Automação de Testes: Selenium, Cypress, Playwright, Selenide</p>
+    <p>Ferramentas de Teste: TestNG, Mockito, BrowserStack, Zephyr Scale</p>
+    <p>DevOps: Docker, Jenkins, Cloudflare</p>
+    <p>Relatórios de Teste: Allure, SonarQube</p>
 
-    <footer>
-        <p>© 2024 Jean Heberth</p>
-    </footer>
+    <h2>Projetos</h2>
+    <div class="project">
+        <h3>1. Sistema de Cadastro de Funcionários</h3>
+        <p>Descrição: Sistema completo de gerenciamento de funcionários, com funcionalidades de cadastro, atribuição de supervisores e visualização de informações.</p>
+        <p>Tecnologias: Spring Boot, Angular, MongoDB</p>
+        <p>Destaques:</p>
+        <ul>
+            <li>Integração backend/frontend para carregamento automático de dados do funcionário com base na matrícula.</li>
+            <li>WebSocket para atualização em tempo real de dados entre diferentes usuários.</li>
+        </ul>
+    </div>
+    <div class="project">
+        <h3>2. Automação de Testes para Aplicação Web</h3>
+        <p>Descrição: Criação de uma suíte de testes automatizados para uma aplicação web, cobrindo cenários de login, cadastro e fluxo de navegação.</p>
+        <p>Ferramentas: Cypress, Selenium</p>
+        <p>Destaques:</p>
+        <ul>
+            <li>Uso de Page Object Model para organizar os testes.</li>
+            <li>Integração com Allure para geração de relatórios detalhados.</li>
+        </ul>
+    </div>
+    <div class="project">
+        <h3>3. Integração de Testes Automatizados com BrowserStack</h3>
+        <p>Descrição: Configuração de um ambiente de testes em dispositivos móveis usando BrowserStack.</p>
+        <p>Destaques:</p>
+        <ul>
+            <li>Testes em múltiplos dispositivos e navegadores.</li>
+            <li>Integração com Jenkins para execução contínua.</li>
+        </ul>
+    </div>
+
+    <h2>Certificações e Educação</h2>
+    <p>Pós-graduação em Testes de Software e Desenvolvimento Full Stack (em andamento)</p>
+    <p>Cursos em Java, Spring Boot e QA</p>
+    <p>Preparação para a Certificação CTFL</p>
+
+    <h2>Contato</h2>
+    <p class="contact-info">
+        LinkedIn: <a href="https://linkedin.com/in/jeanheberth" target="_blank">linkedin.com/in/jeanheberth</a><br>
+        GitHub: <a href="https://github.com/jeanheberth" target="_blank">github.com/jeanheberth</a><br>
+        E-mail: <a href="mailto:jean.heberth@exemplo.com">jean.heberth@exemplo.com</a>
+    </p>
+</div>
 </body>
 </html>
-
