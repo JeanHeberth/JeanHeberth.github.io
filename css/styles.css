@@ -118,6 +118,7 @@ footer a:hover {
 .social-links a:nth-child(3):hover {
     color: #25D366;
 }
+
 .gif-highlight {
     width: 100px;
     display: block;
@@ -158,3 +159,50 @@ footer a:hover {
         font-size: 1.5em;
     }
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:hover {
+    color: #007BFF;
+}
+
+.toggle-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.toggle-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Styling the card and lists */
+.card ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.card ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.card ul li a {
+    color: #333;
+    font-weight: 500;
+}
+
+.card ul li a:hover {
+    color: #007BFF;
+}
+
