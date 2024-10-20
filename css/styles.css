@@ -206,3 +206,11 @@ a:hover {
     color: #007BFF;
 }
 
+.card {
+    display: none;
+}
+
+.card.active {
+    display: block;
+}
+

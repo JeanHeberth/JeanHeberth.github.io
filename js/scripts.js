@@ -6,12 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetId = button.getAttribute('data-target');
             const targetCard = document.getElementById(targetId);
 
-            // Alterna entre mostrar ou esconder o card
-            if (targetCard.style.display === "none" || targetCard.style.display === "") {
-                targetCard.style.display = "block";
-            } else {
-                targetCard.style.display = "none";
-            }
+            // Fecha todas as seções abertas
+            const allCards = document.querySelectorAll('.card');
+            allCards.forEach(card => {
+                if (card !== targetCard) {
+                    card.classList.remove('active'); // Fecha todas as outras seções
+                }
+            });
+
+            // Alterna a seção clicada
+            targetCard.classList.toggle('active'); // Abre ou fecha a seção clicada
         });
     });
 });
