@@ -59,7 +59,7 @@ const schema = {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Jean Heberth Souza Vieira",
-    "jobTitle": "QA Engineer (SDET) / Java Spring Boot Developer",
+    "jobTitle": "QA Engineer (SDET) Pleno / Java Spring Boot Developer Pleno",
     "email": "mailto:jeanheberth19@gmail.com",
     "telephone": "+55-61-99206-2328",
     "url": "https://jeanheberth.github.io/",
@@ -70,11 +70,13 @@ const schema = {
     "knowsAbout": [
         "Test Automation","Selenium","Cypress","Playwright","Appium",
         "RestAssured","API Testing","Web Testing","Mobile Testing",
-        "Java","Spring Boot","JUnit","Python","PyTest",
-        "CI/CD","Jenkins","Docker","GitLab CI","Quality Assurance",
-        "TDD","BDD","Cucumber","JMeter","Scrum","Kanban",
+        "Java","Spring Boot","Spring Security","Spring Cloud","OpenFeign","Microservices","BFF",
+        "JUnit","TestNG","Allure Report","Robot Framework","Python","PyTest",
+        "CI/CD","Jenkins","Docker","GitLab CI","GitHub Actions","Quality Assurance",
+        "TDD","BDD","Cucumber","JMeter","K6","Performance Testing","Grafana","Scrum","Kanban",
         "MySQL","MongoDB","PostgreSQL","LGPD","ISO 9001","ISO 27001",
-        "Postman","SoapUI","SOAP Services","Backend Testing"
+        "Postman","SoapUI","SOAP Services","Backend Testing",
+        "Generative AI","LLM","Google Gemini","AI Agents"
     ]
 };
 
